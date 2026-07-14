@@ -62,7 +62,7 @@ export default function FeatureSection({
       >
 
         {/* Heading */}
-        <h2 className="text-4xl font-black leading-tight text-white lg:text-5xl">
+        <h2 className="text-5xl font-black uppercase tracking-tight leading-[0.9] text-white md:text-6xl">
           {title}
         </h2>
 
