@@ -3,12 +3,13 @@
 import { useRef, useEffect } from 'react'
 import gsap from 'gsap'
 import Image from 'next/image'
+import CODLogo from '../assets/images/cod_logo.png'
 
 const GAMES = [
-  { name: 'Valorant', logo: '/logos/valorant.svg' },
+  { name: 'Valorant', logo: CODLogo },
   { name: 'FIFA', logo: '/logos/fifa.svg' },
   { name: 'CS2', logo: '/logos/cs2.svg' },
-  { name: 'League of Legends', logo: '../assests/images/cod_logo.png' },
+  { name: 'League of Legends', logo: CODLogo },
   { name: 'Call of Duty', logo: '/logos/cod.svg' },
   { name: 'Fortnite', logo: '/logos/fortnite.svg' },
 ]
