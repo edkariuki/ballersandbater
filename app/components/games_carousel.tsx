@@ -7,14 +7,17 @@ import CODLogo from '../assets/logos/Screenshot 2026-07-23 at 21.01.10.png'
 import FCLogo from '../assets/logos/fc_logo.png'
 import ApexLogo from '../assets/logos/apex_logo.jpg'
 import FortniteLogo from '../assets/logos/fortnite_logo.jpg'
+import NBA2KLogo from '../assets/logos/nba2k_logo.jpg'
+import ValorantLogo from '../assets/logos/valorant_logo.jpg'
 
 const GAMES = [
-  { name: 'Valorant', logo: CODLogo },
+  { name: 'Valorant', logo: ValorantLogo },
   { name: 'FIFA', logo: FCLogo },
   { name: 'Apex Legends', logo: ApexLogo },
-  { name: 'League of Legends', logo: FCLogo },
+  { name: 'NBA 2K', logo: NBA2KLogo },
   { name: 'Call of Duty', logo: CODLogo },
   { name: 'Fortnite', logo: FortniteLogo },
+
 ]
 
 export default function GameLogoCarousel() {
