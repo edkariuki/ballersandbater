@@ -3,7 +3,7 @@
 import { useRef, useEffect } from 'react'
 import gsap from 'gsap'
 import Image from 'next/image'
-import CODLogo from '../assets/images/cod_logo.png'
+import CODLogo from '../assets/logos/cod_logo.png'
 
 const GAMES = [
   { name: 'Valorant', logo: CODLogo },
